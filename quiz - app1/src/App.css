@@ -1,0 +1,47 @@
+/* Basic styling for the StudentPage component */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.input-field {
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin-right: 12px;
+  margin-bottom: 8px;
+  width: auto;
+}
+
+.input-field:focus {
+  border-color: #3b82f6;
+  outline: none;
+}
+
+.btn-save {
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.btn-save:hover {
+  background-color: #2563eb;
+}
+
+h1 {
+  color: #3b82f6;
+}
+
+ul {
+  padding-left: 20px;
+}
